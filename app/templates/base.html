@@ -1,0 +1,15 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} - Orgab</title>
+    {% else %}
+    <title>Welcome to Orgab</title>
+    {% endif %}
+  </head>
+  <body>
+    <div>Orgab: <a href="/index">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
+
