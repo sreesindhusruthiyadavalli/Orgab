@@ -22,4 +22,4 @@ def index():
                            user=user,
                            posts=posts)
 
-    #http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-x-full-text-search
+    
