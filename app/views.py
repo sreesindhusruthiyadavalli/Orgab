@@ -6,8 +6,8 @@ from app import app
 def index():
     #return "Hello, World!"
     
-    user = {'name': 'Sruthi'}  # fake user
-    posts = [  # fake array of posts
+    user = {'name': 'Sruthi'}  
+    posts = [  # array of posts
         { 
             'author': {'name': 'Sruthi'}, 
             'body': 'Welcome to orgab!' 
