@@ -6,8 +6,8 @@ from app import app
 def index():
     #return "Hello, World!"
     
-    user = {'name': 'Sruthi'}  # fake user
-    posts = [  # fake array of posts
+    #user = {'name': 'Sruthi'}  # fake user
+    '''posts = [  # fake array of posts
         { 
             'author': {'name': 'Sruthi'}, 
             'body': 'Welcome to orgab!' 
@@ -16,10 +16,11 @@ def index():
             'author': {'name': 'Sujay'}, 
             'body': "That's cool!"
         }
-    ]
-    return render_template("index.html",
+    ]'''
+    return render_template("orgab.html",
                            title='Home',
-                           user=user,
-                           posts=posts)
+                           #user=user,
+                           #posts=posts
+                           )
 
     #http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-x-full-text-search
